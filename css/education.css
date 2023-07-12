@@ -1,0 +1,51 @@
+.education {
+  margin-bottom: 25px;
+}
+
+.education__wrapper {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.education__wrapper-image {
+  margin-right: 20px;
+  width: 30px;
+}
+
+.education__wrapper-title {
+  height: 30px;
+  flex: 1;
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--color-grey);
+  letter-spacing: 1px;
+  border-bottom: 2px solid var(--color-grey);
+  text-transform: uppercase;
+}
+
+.education__wrap {
+  padding-left: 50px;
+}
+
+.education__wrapp-university {
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--color-grey);
+}
+
+.education__wrapp-faculty,
+.education__wrapp-year,
+.education__wrapp-specialization {
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--color-grey);
+}
+
+.education__wrapp-specialization {
+  margin: 0;
+}
+
+

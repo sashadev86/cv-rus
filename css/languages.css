@@ -1,0 +1,41 @@
+.languages {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.languages__title {
+  margin: 0 auto;
+  padding: 5px 10px;
+  width: 136px;
+  font-size: 18px;
+  color: var(--color-white);
+  background-color: var(--color-night-rider);
+  text-transform: uppercase;
+  transform: translateY(-15px);
+  text-align: center;
+}
+
+.languages__list {
+  width: 80%;
+}
+
+.languages__item {
+  font-size: 18px;
+}
+
+.languages__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.languages__item-lang {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--color-night-rider);
+}
+
+.languages__item-skill {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--color-night-rider);
+}
