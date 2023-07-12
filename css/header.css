@@ -1,0 +1,29 @@
+.wrapper__header {
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--color-white)
+}
+
+.wrapper__header-image {
+  margin-bottom: 20px;
+  width: 204px;
+  border: 10px solid var(--color-cream-can);
+  border-radius: 100%;
+}
+
+.wrapper__header-name {
+  margin-bottom: 10px;
+  max-width: 250px;
+  width: 100%;
+  font-size: 40px;
+  font-weight: 600;
+  color: var(--color-black);
+  text-align: center;
+}
+
+.wrapper__header-profession {
+  font-size: 22px;
+  color: var(--color-black);
+}

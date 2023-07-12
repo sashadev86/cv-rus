@@ -1,0 +1,15 @@
+:root {
+  --color-black: #000000;
+  --color-night-rider: #333333;
+  --color-white: #ffffff;
+  --color-cream-can: #F0BF5F;
+  --color-grey: #777777;
+  --color-background-code: #c7c7c7;
+
+  --font-family: "Open Sans", sans-serif;
+  --content-width: 1100px;
+  --container-offset: 0px;
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+  --container-box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
+  --text-shadow-grey: 10px 10px 40px rgba(0, 0, 0);
+}

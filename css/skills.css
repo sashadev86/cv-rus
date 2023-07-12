@@ -1,0 +1,31 @@
+.skills {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skills__title {
+  margin: 0 auto;
+  padding: 5px 20px;
+  width: 136px;
+  font-size: 18px;
+  color: var(--color-white);
+  background-color: var(--color-night-rider);
+  text-transform: uppercase;
+  transform: translateY(-15px);
+  text-align: center;
+}
+
+.skills__list {
+  margin-bottom: 50px;
+  width: 80%;
+}
+
+.skills__item {
+  font-size: 18px;
+  color: var(--color-night-rider);
+}
+
+.skills__item:not(:last-child) {
+  margin-bottom: 10px;
+}

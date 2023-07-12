@@ -1,0 +1,40 @@
+.courses {
+  margin-bottom: 25px;
+}
+
+.courses__wrapper {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.courses__wrapper-image {
+  margin-right: 20px;
+  width: 30px;
+}
+
+.courses__wrapper-title {
+  height: 30px;
+  flex: 1;
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--color-grey);
+  letter-spacing: 1px;
+  border-bottom: 2px solid var(--color-grey);
+  text-transform: uppercase;
+}
+
+.courses__list {
+  padding-left: 70px;
+}
+
+.courses__item {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--color-grey);
+}
+
+.courses__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
