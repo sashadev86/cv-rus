@@ -24,10 +24,6 @@
 }
 
 .wrapper__header-profession {
-  font-size: 22px;
+  font-size: 24px;
   color: var(--color-black);
-}
-
-.wrapper__header-profession:not(:last-child) {
-  margin-bottom: 5px;
 }
