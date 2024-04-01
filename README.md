@@ -1,7 +1,7 @@
 # Моё cv
 
 #### Ссылка на cv:
-- [Александр Валентинов](https://banditos86.github.io/cv-rus/)
+- [Александр Валентинов](https://sashadev86.github.io/cv-rus/)
 
 ---
 
